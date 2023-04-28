@@ -1,0 +1,8 @@
+{% load crispy_forms_tags %}
+<form method="post">
+    {% csrf_token %}
+    {{ form }}
+    <div style="padding-top: 15px">
+        <button style="border: none; border-radius: 5px; width: 200px; padding: 10px; background: #87cc2d; color: white" type="submit">Вход</button>
+    </div>
+</form>
