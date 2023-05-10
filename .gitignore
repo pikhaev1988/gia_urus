@@ -207,6 +207,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
-
+/gia_urus/settings.py
 # mkdocs documentation
 /site
