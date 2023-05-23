@@ -17,30 +17,27 @@
 <div class="bodi">
     <div class="grid_nav">
         <div class="log" style="width: 250px; height: 70px">
-            <p class="text_1" style="">ГИА Урус-Мартан</p>
+            <p class="text_1" style="">ЭБ СОШ1 Урус</p>
         </div>
         <div class="nav">
             {% include 'gia/nav.html' %}
         </div>
         <div class="reg" style="width: 180px">
             <table>
-                <td><a href="#" class="button_1"><span>✓</span>Вход</a></button> </td>
+                <td><a href="{% url 'login' %}" class="button_1"><span>✓</span>Вход</a></button> </td>
             </table>
         </div>
 
     </div>
 
-    <div style="width: 1230px;  height: 600px; margin: auto;">
-        <div style="display: grid; grid-auto-columns: 400px 1fr 400px;">
+    <div style="width: 1230px;  height: auto; margin: auto;">
+        <div class="bodi_1">
 
-            <div style="flex-wrap: wrap">
+            <div>
                 {% include 'gia/bloki/meny_lev.html' %}
             </div>
             <div>
                 <img src="/media/media/gia9.jpg" width="600px" height="350px">
-            </div>
-            <div>
-
             </div>
         </div>
 
